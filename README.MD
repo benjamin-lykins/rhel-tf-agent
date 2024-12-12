@@ -66,4 +66,6 @@ Output:
 2024-12-12T19:40:10.966Z [INFO]  core: Waiting for next job
 ```
 
+In HCP Terraform:
+
 ![RHEL Agent](assets/image.png)
