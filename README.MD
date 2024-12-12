@@ -1,17 +1,15 @@
-# rhel-tf-agent-container
+> Just to note, this is not an official solution. Just side I did to demo work. 
 
-> Just to note, this is not an official solution. Just side work. 
+This comes up frequently and there were no readily available or supported agent images which run on RHEL exclusively. 
 
-This comes up frequently and there are no readily available or supported agents which run on RHEL exclusively. 
-
-All this does is essentially the recommended steps installing it on a server, but puts it into a container. 
+All work done here is essentially the recommended steps installing the agent directly on the server. 
 
 https://developer.hashicorp.com/terraform/cloud-docs/agents/requirements 
 https://developer.hashicorp.com/terraform/cloud-docs/agents/agents
 
 ## Gist of It
 
- This Dockerfile creates a container for running the Terraform Cloud Agent on Red Hat UBI 9.
+ This Containerfile creates an image for running the Terraform Cloud Agent using RedHat UBI 9.
 
  Base Image:
  - Uses the latest Red Hat Universal Base Image 9 (ubi9).
