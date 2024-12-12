@@ -1,4 +1,4 @@
-> Just to note, this is not an official solution. Just side I did to demo work. 
+> Just to note, this is not an official solution. Just side I did as an example. 
 
 This comes up frequently and there were no readily available or supported agent images which run on RHEL exclusively. 
 
