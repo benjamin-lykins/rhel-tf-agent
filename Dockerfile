@@ -1,3 +1,4 @@
+
 FROM redhat/ubi9:latest
 
 # set the tfc-agent version
