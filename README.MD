@@ -4,7 +4,7 @@ This comes up frequently and there were no readily available or supported agent 
 
 All work done here is essentially the recommended steps installing the agent directly on the server. 
 
-https://developer.hashicorp.com/terraform/cloud-docs/agents/requirements 
+https://developer.hashicorp.com/terraform/cloud-docs/agents/requirements  
 https://developer.hashicorp.com/terraform/cloud-docs/agents/agents
 
 ## Gist of It
