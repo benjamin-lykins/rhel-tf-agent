@@ -34,29 +34,29 @@ This will work with either Docker or Podman. If you want it RedHat all the way d
 
 ## Running
 
-Export the Agent Token and Agent Name
+Export the Agent Token and Agent Name:
 
 ```
 export TFC_AGENT_TOKEN=r9VF4xv9cV5nFQ.atlasv1.yesThisisaFakeTokeN
 export TFC_AGENT_NAME=rhel-agent
 ```
 
-For Docker
+For Docker, replace `[image]` with your image:
 
 ```
-docker run -e TFC_AGENT_TOKEN -e TFC_AGENT_NAME {image}:latest
+docker run -e TFC_AGENT_TOKEN -e TFC_AGENT_NAME [image]:latest
 ```
 
-For Podman
+For Podman, replace `[image]` with your image:
 
 ```
-podman run -e TFC_AGENT_TOKEN -e TFC_AGENT_NAME {image}:latest
+podman run -e TFC_AGENT_TOKEN -e TFC_AGENT_NAME [image]:latest
 ```
 
 Output: 
 
 ```
-➜  tf-agent-rhel-container git:(main) ✗ podman run -e TFC_AGENT_TOKEN -e TFC_AGENT_NAME rhel-tf-agent:latest
+➜  tf-agent-rhel git:(main) ✗ podman run -e TFC_AGENT_TOKEN -e TFC_AGENT_NAME rhel-tf-agent:latest
 2024-12-12T19:40:10.239Z [INFO]  agent: Starting: agent_name=agent agent_version=1.17.3
 2024-12-12T19:40:10.335Z [INFO]  core: Starting: version=1.17.3
 2024-12-12T19:40:10.680Z [INFO]  core: Agent registered successfully with HCP Terraform: agent_id=agent-UgJEAg5xF5TciQfo agent_pool_id=apool-ADsRY2QP68nLQw8Z
@@ -66,4 +66,4 @@ Output:
 
 In HCP Terraform:
 
-![RHEL Agent](assets/image.png)
+![agent](assets/image.png)
